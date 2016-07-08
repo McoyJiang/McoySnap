@@ -4,7 +4,8 @@
 
 ![image](https://github.com/McoyJiang/McoySnap/raw/master/IMAGE/McoySnap.gif)
 
-如何使用：\n
+如何使用：
+
 1 添加依赖：
 在Project build.gradle中添加如下代码
 allprojects {
@@ -17,7 +18,7 @@ allprojects {
 dependencies {
 	        compile 'com.github.McoyJiang:McoySnap:v1.0'
 }
-\n
+
 2 在xml布局文件中如下引用
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -43,7 +44,7 @@ dependencies {
     </com.mcoy.snapscrollview.McoySnapPageLayout>
 
 </RelativeLayout>
-\n
+
 3 在java代码中初始化McoySnapPageLayout，并添加第一页和第二页的内容
 public class MainActivity extends Activity {
 	
