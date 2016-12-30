@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.mcoy.snapscrollview.McoyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<material.danny_jiang.com.mcoysnaplibrary.view.McoyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/product_scrollview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -80,4 +80,4 @@
         
     </LinearLayout>
 
-</com.mcoy.snapscrollview.McoyScrollView>
+</material.danny_jiang.com.mcoysnaplibrary.view.McoyScrollView>

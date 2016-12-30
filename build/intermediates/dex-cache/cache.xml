@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_8b7835f6b2a5fd66c6d737c8c79a7ab0d29bc59d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2829df78e9dfe3100d02ec383a04b98e98f89ef0">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_bb3c6f999858c20c47c090b26c66b17920e44487.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a4f8e8f0bfdf7b21dc316c923c9edd9636d2faf">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/instant-run_4d16e2d3e7a9c65bc492178581a4ea85b5533a69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_47d3e75caf8b60d4f315e1274af935f43fac473c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_bd6237a480b784987371803aaa84b557aef262b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_eed9babc9579089d3378f2b07ec28cc61aabcabb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_2fa0b9fdda0a1721df46e1948c3ea45bc3788eb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/axing/Downloads/mac_develop/android-sdk-macosx-2/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/axing/AndroidStudioProjects/MyProject/McoySnap/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_1376e5f5efebdcb6a7c66255f2438e9320b600de.jar" />
+    </item>
+
+</items>
