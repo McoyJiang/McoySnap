@@ -1,5 +1,83 @@
 # McoySnap
+# V0.2
+在v0,1的基础上，进行了以下功能扩展：<br>
+1 可随意调用addSnapPage向布局中添加需要上下滑动的页面<br>
+2 对ScrollView和WebView做区分处理：分别使用McoyScrollSnapPlage和McoyWebSnapPage来显示<br>
+<br>
+## 具体使用方法<br>
+1 添加依赖<br>
+在Project build.gradle中添加如下代码<br>
+<br>
+```
+allprojects {
 
+		repositories {
+		
+			...
+			
+			maven { url "https://jitpack.io" }
+			
+		}
+		
+}
+```
+<br>
+在app的build.gradle中添加如下依赖：<br>
+<br>
+dependencies {
+
+	        compile 'com.github.McoyJiang:McoySnap:v2.0'
+	        
+}
+<br>
+2 在MainActivity的布局文件中引用McoySnapPageLayout的全路径，如下所示<br>
+```
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <material.danny_jiang.com.mcoysnaplibrary.widget.McoySnapPageLayout
+        android:id="@+id/flipLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </material.danny_jiang.com.mcoysnaplibrary.widget.McoySnapPageLayout>
+
+</RelativeLayout>
+```
+<br>
+3 在MainActivity中初始化McoySnapPageLayout控件，并调用addSnapPage方法添加需要单页显示的页面，代码如下:<br>
+```
+public class MainActivity extends AppCompatActivity {
+
+    private McoySnapPageLayout mcoySnapPageLayout = null;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        mcoySnapPageLayout = (McoySnapPageLayout) findViewById(R.id.flipLayout);
+
+        McoyScrollSnapPage m1 = new McoyScrollSnapPage(this, R.layout.test);
+        McoyScrollSnapPage m2 = new McoyScrollSnapPage(this, R.layout.test);
+        McoyScrollSnapPage m3 = new McoyScrollSnapPage(this, R.layout.test);
+
+        mcoySnapPageLayout.addSnapPage(m1);
+        mcoySnapPageLayout.addSnapPage(m2);
+        mcoySnapPageLayout.addSnapPage(m3);
+
+        McoyWebSnapPage w1 = new McoyWebSnapPage(this, "http://www.baidu.com");
+        McoyWebSnapPage w2 = new McoyWebSnapPage(this, "http://blog.csdn.net/zxm317122667/article/details/47018357");
+
+        mcoySnapPageLayout.addSnapPage(w1);
+        mcoySnapPageLayout.addSnapPage(w2);
+    }
+}
+```
+<br>
+4 运行显示如下效果
+# V0.1
 实现仿淘宝上下两页进行滑动切换的效果：当第一页滑动到底部，继续上拉则滑动到第二页,如下效果
 
 ![image](https://github.com/McoyJiang/McoySnap/raw/master/IMAGE/McoySnap.gif)
