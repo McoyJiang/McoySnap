@@ -3,6 +3,10 @@
 在v0,1的基础上，进行了以下功能扩展：<br>
 1 可随意调用addSnapPage向布局中添加需要上下滑动的页面<br>
 2 对ScrollView和WebView做区分处理：分别使用McoyScrollSnapPlage和McoyWebSnapPage来显示<br>
+
+##注意<br>
+如果是想使用ScrollView显示上下滑动的内容，可以使用McoyScrollSnapPlage。<br>
+如果是先使用WebView显示网页内容可以使用McoyWebSnapPage
 <br>
 ## 具体使用方法<br>
 1 添加依赖<br>
