@@ -1,4 +1,6 @@
 # McoySnap
+
+<img src='https://github.com/McoyJiang/McoySnap/blob/master/IMAGE/McoySnap.gif'>
 # V0.2
 在v0,1的基础上，进行了以下功能扩展：<br>
 1 可随意调用addSnapPage向布局中添加需要上下滑动的页面<br>
