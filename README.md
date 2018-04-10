@@ -2,10 +2,11 @@
 <br>
 <img src='https://github.com/McoyJiang/McoySnap/blob/master/IMAGE/McoySnap.gif'>
 <br>
-# V0.2
+
+## V0.2
 在v0,1的基础上，进行了以下功能扩展：<br>
-1 可随意调用addSnapPage向布局中添加需要上下滑动的页面<br>
-2 对ScrollView和WebView做区分处理：分别使用McoyScrollSnapPlage和McoyWebSnapPage来显示<br>
+	1 可随意调用addSnapPage向布局中添加需要上下滑动的页面<br>
+	2 对ScrollView和WebView做区分处理：分别使用McoyScrollSnapPlage和McoyWebSnapPage来显示<br>
 
 ##注意<br>
 如果是想使用ScrollView显示上下滑动的内容，可以使用McoyScrollSnapPlage。<br>
